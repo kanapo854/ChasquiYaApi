@@ -66,7 +66,7 @@ ChasquiYaApi/
 ```
 ## Pruebas de cada endpoint
 
-EJEMPLOS DE LLAMADAS
+EJEMPLOS DE LLAMADAS EN POSTMAN
 
 ```
 https://chaconvalhery-7756771.postman.co/workspace/Valhery-Leaylean-Quispe-Chacon'~f67bcd3f-1fb0-49e6-825b-bb2ef625bb45/collection/49916364-12160a0a-9702-40b5-b654-f8853781e2e2?action=share&creator=49916364
