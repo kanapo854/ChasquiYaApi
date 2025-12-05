@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 3000;
 // Importar rutas
 const authRoutes = require('./routes/auth');
 const menuItemsRoutes = require('./routes/menu_items');
+const ordersRoutes = require('./routes/orders');
 
 // Importar rutas completas (transaccionales)
 const restaurantsCompleteRoutes = require('./routes/restaurants_complete');
@@ -49,6 +50,9 @@ app.use('/api/auth', authRoutes);
 
 // Ruta de items del menú
 app.use('/api/menu-items', menuItemsRoutes);
+
+// Ruta de pedidos
+app.use('/api/orders', ordersRoutes);
 
 // Rutas completas (transaccionales - recomendadas)
 app.use('/api/restaurants-complete', restaurantsCompleteRoutes);
